@@ -1,1 +1,13 @@
 /*  your css code here. If applicable */
+div:nth-child(n){
+	border: 1px black solid;
+	background-color:white;
+	padding:10px;
+	margin-bottom:20px
+}
+div p:nth-child(odd){
+	text-align:left;
+}
+div p:nth-child(even){
+	text-align:right
+}
